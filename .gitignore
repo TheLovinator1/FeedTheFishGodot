@@ -1,2 +1,8 @@
 # Godot 4+ specific ignores
 .godot/
+
+# Visual Studio Code things
+.vscode/
+
+# Where we export the game to
+Export/
