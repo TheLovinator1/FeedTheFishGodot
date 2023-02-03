@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://d3axqnu5bf7tf"]
+[gd_scene load_steps=5 format=3 uid="uid://bigubx0dyfqk3"]
 
 [ext_resource type="Texture2D" uid="uid://cwcuomt7bkm8w" path="res://assets/TX Tileset Grass.png" id="1_15p8g"]
-[ext_resource type="PackedScene" uid="uid://bjem2dyb2kssa" path="res://scenes/player.tscn" id="2_p7pue"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_p7pue"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8gxad"]
 texture = ExtResource("1_15p8g")
@@ -86,5 +86,4 @@ layer_0/tile_data = PackedInt32Array(-2, 262145, 1, 65534, 458753, 4, -1, 1, 0, 
 [node name="Player" parent="." instance=ExtResource("2_p7pue")]
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-current = true
 position_smoothing_enabled = true
